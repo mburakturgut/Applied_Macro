@@ -131,7 +131,7 @@ class Dynare(object):
 
 		self.steady_values = {}
 		for i in range(self.n):
-			self.steady_values[self.steadys[i]] = np.float(ss[0][i])
+			self.steady_values[self.steadys[i]] = np.float64(ss[0][i])
 				
 		return self.steady_values
 	
